@@ -1,16 +1,17 @@
-/* styles.css */
 main {
   background-color: #f8f9fa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   margin: 30px 8px;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 #title {
   color: #2c3e50;
   text-align: center;
   margin-bottom: 1.5rem;
+  font-size: 2rem;
 }
 
 #img-div {
@@ -28,6 +29,7 @@ main {
   height: auto;
   margin: 0 auto;
   border-radius: 3px;
+  object-fit: cover;
 }
 
 #img-caption {
@@ -75,5 +77,9 @@ main {
   
   #img-div {
       padding: 10px;
+  }
+  
+  #image {
+    max-width: 90%;
   }
 }

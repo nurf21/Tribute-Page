@@ -8,6 +8,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-wrap: break-word;
 }
 
 #title {
@@ -24,6 +25,7 @@ main {
   max-width: 800px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
 }
 
 #image {
@@ -33,6 +35,11 @@ main {
   margin: 0 auto;
   border-radius: 3px;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#image:hover {
+  transform: scale(1.1);
 }
 
 #img-caption {
@@ -51,14 +58,19 @@ main {
   background-color: #f7f7f7;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow-wrap: break-word;
 }
 
 #tribute-info ul {
   margin: 1.5rem 0;
+  list-style: none;
+  padding: 0;
 }
 
 #tribute-info li {
   margin-bottom: 0.8rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
 }
 
 #tribute-link {

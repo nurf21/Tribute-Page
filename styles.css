@@ -9,6 +9,7 @@ main {
   flex-direction: column;
   align-items: center;
   overflow-wrap: break-word;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #title {
@@ -26,6 +27,11 @@ main {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+#img-div:hover {
+  transform: scale(1.01);
 }
 
 #image {

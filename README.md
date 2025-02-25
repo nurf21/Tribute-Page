@@ -24,7 +24,7 @@ This project is a basic tribute page to Marie Curie, a Polish-born French physic
 **Getting Started**
 ------------
 
-1. Clone the repository to your local machine using git clone `https://github.com/your-username/Tribute-Page.git`
+1. Clone the repository to your local machine using git clone `https://github.com/nurf21/Tribute-Page.git`
 2. Open the `index.html` file in a web browser to view the tribute page
 3. Edit the `styles.css` file to customize the styling of the page
 

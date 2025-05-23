@@ -26,14 +26,14 @@ main {
   margin: 0 auto;
   max-width: 800px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
 }
 
 #img-div:hover {
   transform: scale(1.01);
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 #image {
@@ -60,7 +60,7 @@ main {
   padding: 20px;
   background-color: #f7f7f7;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow-wrap: break-word;
 }
 
@@ -93,19 +93,33 @@ main {
 
 @media (max-width: 768px) {
   main {
-      margin: 0;
-      padding: 1rem;
+    margin: 0;
+    padding: 1rem;
   }
-  
+
   #img-div {
-      padding: 10px;
+    padding: 10px;
   }
-  
+
   #image {
     max-width: 90%;
   }
-  
+
   #tribute-info {
     padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #title {
+    font-size: 1.5rem;
+  }
+
+  #img-caption {
+    font-size: 1rem;
+  }
+
+  #tribute-info {
+    font-size: 0.9rem;
   }
 }
